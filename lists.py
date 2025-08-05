@@ -1,4 +1,10 @@
-grocery = ["2Kg Meat", "Pap", "Rice". "Spaghetti", "Mayo", "Tomato Sauce", "Wors", "Minced Meat", "Spices", "Soup", "Tin fish", "Baked Beans"]
+grocery = ["2Kg Meat", "Pap", "Rice", "Spaghetti", "Mayo", "Tomato Sauce", "Wors", "Minced Meat", "Spices", "Soup", "Tin fish", "Baked Beans"]
 
-print(grocery)
+userName = input("Enter your name: ")
+
+print("Hey " + userName + ", from the grocery list, which items will you like to buy?")
+print("You can choose from the following items:")
+
+for item in grocery:
+    print(item) # Accessing each item on the grocery list
 
