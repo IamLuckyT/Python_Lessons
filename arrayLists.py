@@ -1,4 +1,6 @@
 grocery = ["2Kg Meat", "Pap", "Rice", "Spaghetti", "Mayo", "Tomato Sauce", "Wors", "Minced Meat", "Spices", "Soup", "Tin fish", "Baked Beans"]
+fruits = ["Apple", "Banana", "Orange", "Grapes", "Mango", "Pineapple", "Strawberry"]
+vegetables = ["Carrot", "Green Pepper", "Spinach", "Potato", "Cabbage", "Onion", "Garlic"]
 
 userName = input("Enter your name: ")
 
@@ -7,4 +9,10 @@ print("You can choose from the following items:")
 
 for item in grocery:
     print(item) # Accessing each item on the grocery list
+
+for item in fruits:
+    print(item) # Accessing each item on the fruits list
+
+for item in vegetables:
+    print(item) # Accessing each item on the vegetables list
 
