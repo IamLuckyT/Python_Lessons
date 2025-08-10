@@ -1,1 +1,0 @@
-#A tuple is a collection of objects that are ordered and immutable. Tuples are similar to lists, but unlike lists, tuples cannot be changed after they are created. Tuples can contain any type of object, including other tuples. 
