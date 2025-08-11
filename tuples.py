@@ -23,7 +23,7 @@ print(nested_tuple[2][0])  # Accessing the first element of the nested tuple
 print(nested_tuple[2][1])  # Accessing the second element of the nested tuple
 print(nested_tuple[2][0] + nested_tuple[2][1]) # Adding elements of the nested tuple
 
-Print()
+print()
 
 # Tuples can be concatenated and repeated
 tuple1 = (1, 2, 3)
