@@ -8,14 +8,26 @@ userName = input("Enter your name: ")
 
 print("Hey " + userName + ", from the grocery list, which items will you like to buy?")
 print("You can choose from the following items:")
-for fruit in fruits:
-    print(fruit)
+for item in grocery:
+    print(item)
 
 user_choice = input("Which fruit do you like? ")
-
+'''
 if user_choice in fruits:
     print(f"You chose: {user_choice}")
 else:
     print("Sorry, that fruit is not in the list.")
+'''
+# Split input by commas and strip whitespace
+chosen_items = [item.strip() for item in user_choice.split(",")]
+
+# Check which chosen fruits are valid
+valid_choices = [item for item in chosen_items if item in grocery]
+invalid_choices = [item for item in chosen_items if item not in grocery]
+
+print(f"The items you want to buy are: {valid_choices}")
+
+if invalid_choices:
+    print(f"These items are not in the list and were ignored: {invalid_choices}")
 
 
