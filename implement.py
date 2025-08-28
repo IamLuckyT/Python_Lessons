@@ -6,12 +6,12 @@ vegetables = ["Carrot", "Green Pepper", "Spinach", "Potato", "Cabbage", "Onion",
 
 userName = input("Enter your name: ")
 
-print("Hey " + userName + ", from the grocery list, which items will you like to buy?")
+print("Hey " + userName + ", from the grocery list which items will you like to buy?")
 print("You can choose from the following items:")
 for item in grocery:
     print(item)
 
-user_choice = input("Which fruit do you like? ")
+user_choice = input("Select the item/items would you like to buy: ")
 '''
 if user_choice in fruits:
     print(f"You chose: {user_choice}")
