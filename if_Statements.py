@@ -27,3 +27,5 @@ elif val < val2:
 else:
     print("The two values you entered are equal")
 
+print("Now " + userName + " what else would you like to enter?")
+
