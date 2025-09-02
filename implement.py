@@ -35,4 +35,8 @@ print(f"The items you want to buy are: {valid_choices}")
 if invalid_choices:
     print(f"These items are not in the list and were ignored: {invalid_choices}")
 
+print()
+for fruit in fruits:
+    print(fruit)
 
+print()
