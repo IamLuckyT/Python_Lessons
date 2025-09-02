@@ -34,9 +34,25 @@ print(f"The items you want to buy are: {valid_choices}")
 
 if invalid_choices:
     print(f"These items are not in the list and were ignored: {invalid_choices}")
+    
+print()
+
+print("Here are fruits we have in stock:")
 
 print()
 for fruit in fruits:
     print(fruit)
 
 print()
+
+user_choice = input("Select fruits you would like to buy: ")
+
+chosen_items = [item.strip() for item in user_choice.split(",")]
+
+valid_choices = [fruit for fruit in chosen_items if fruit in fruits]
+invalid_choices = [fruit for fruit in chosen_items if fruit not in fruits]
+
+print(f"The fruits you want to buy are: {valid_choices}")
+
+if invalid_choices:
+    print(f"These fruits are not in the list and were ignored: {invalid_choices}")
