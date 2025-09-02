@@ -7,11 +7,14 @@ vegetables = ["Carrot", "Green Pepper", "Spinach", "Potato", "Cabbage", "Onion",
 userName = input("Enter your name: ")
 
 print("Hey " + userName + ", from the grocery list which items will you like to buy?")
-print("You can choose from the following items:")
+print("You can choose from the following grocery items:")
 for item in grocery:
     print(item)
+    
+print("NB : Use a comma to separate items")
 
 user_choice = input("Select the item/items would you like to buy: ")
+
 '''
 if user_choice in fruits:
     print(f"You chose: {user_choice}")
