@@ -10,7 +10,9 @@ print("Hey " + userName + ", from the grocery list which items will you like to 
 print("You can choose from the following grocery items:")
 for item in grocery:
     print(item)
-    
+
+print()
+
 print("NB : Use a comma to separate items")
 
 user_choice = input("Select the item/items would you like to buy: ")
