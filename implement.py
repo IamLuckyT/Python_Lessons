@@ -64,3 +64,8 @@ print(f"The fruits you want to buy are: {valid_choices}")
 
 if invalid_choices:
     print(f"These fruits are not in the list and were ignored: {invalid_choices}")
+
+Shops = []
+
+print(userName + " please enter your davourite Shop(s)")
+
