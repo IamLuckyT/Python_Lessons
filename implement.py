@@ -67,5 +67,11 @@ if invalid_choices:
 
 Shops = []
 
-print(userName + " please enter your davourite Shop(s)")
+while True: 
+    shop = input(userName + "Enter the name of a shop you like (or type 'done' to finish): ")
+    if shop.lower() == 'done':
+        break
+    Shops.append(shop)
+    print(f"Current list of shops: {Shops}")
+
 
